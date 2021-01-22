@@ -1,0 +1,20 @@
+<mvc:View
+    controllerName="promise.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button text="Promise all" press="onPressBtnAll" />
+						<Button text="Promise any" press="onPressBtnAny" />
+						<Button text="Promise Race" press="onPressBtnRace" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
